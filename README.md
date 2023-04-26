@@ -30,7 +30,7 @@ Firstly, it's necessary to clone the official Floodlight repository and this rep
 
 ```bash
 git clone https://github.com/floodlight/floodlight.git floodlight
-git clone https://github.com/ amd
+git clone https://github.com/biagiocornacchia/Asynchronous-Message-Delivery amd
 ```
 
 Then, copy the `amd/src/forwarding` and `amd/src/unipi` folders into `floodlight/src/main/java/net/floodlightcontroller/`. Finally, remember to add `net.floodlightcontroller.unipi.amd.AsynchronousMessageDelivery` in the `floodlightdefault.properties` and `IFloodlightModule` files. 
